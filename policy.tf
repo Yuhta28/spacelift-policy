@@ -1,7 +1,7 @@
 resource "spacelift_stack" "policy-tutorial" {
-    name = "policy-tutorial"
-    repository = "spacelift-policy-tutorial"
-    branch = "main"
+  name       = "policy-tutorial"
+  repository = "mini-mini-Iac_terraform"
+  branch     = "main"
 }
 
 # This example assumes that you have Rego policies in a separate
