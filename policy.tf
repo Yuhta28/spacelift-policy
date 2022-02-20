@@ -8,7 +8,7 @@ resource "spacelift_stack" "policy-tutorial" {
 # folder called "policies".
 resource "spacelift_policy" "example-policy" {
   name = "Example policy"
-  body = file("${path.module}/policies/example-policy.rego")
+  body = file("${path.module}/policies/deny.rego")
   type = "TERRAFORM_PLAN"
 }
 
