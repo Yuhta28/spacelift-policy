@@ -1,5 +1,5 @@
 resource "spacelift_stack" "policy-tutorial" {
-  name       = "policy-tutorial"
+  name       = "spacelift-policy-turotial"
   repository = "mini-mini-Iac_terraform"
   branch     = "master"
 }
